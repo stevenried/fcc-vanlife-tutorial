@@ -1,0 +1,17 @@
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4d4d4d;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #272727;
+}
