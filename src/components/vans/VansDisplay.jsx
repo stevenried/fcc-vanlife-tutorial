@@ -1,5 +1,4 @@
 import VanCard from './VanCard'
-import Wrapper from '../Layout/wrapper'
 
 import classes from './VansDisplay.module.css'
 
