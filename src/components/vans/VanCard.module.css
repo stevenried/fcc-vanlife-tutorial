@@ -3,7 +3,6 @@
 }
 
 .van-card img {
-  max-width: -moz-fit-content;
   max-width: 100%;
   display: block;
   border-radius: 5px;
