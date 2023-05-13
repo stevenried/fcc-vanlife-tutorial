@@ -6,7 +6,7 @@
 }
 
 .nav-links a {
-  text-decoration: none;
+  text-decoration-line: none;
   color: #4d4d4d;
   line-height: 23px;
   font-weight: 600;
@@ -14,4 +14,10 @@
 
 .nav-links a:hover {
   color: #272727;
+}
+
+.nav-links .active {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  color: #161616;
 }

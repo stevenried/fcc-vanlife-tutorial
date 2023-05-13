@@ -1,0 +1,38 @@
+.van-card {
+  font-family: 600;
+}
+
+.van-card img {
+  max-width: -moz-fit-content;
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.description {
+  position: relative;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0.8rem 0;
+}
+
+.name-price h3 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  align-self: flex-end;
+  font-weight: 500;
+  font-size: 14px;
+}

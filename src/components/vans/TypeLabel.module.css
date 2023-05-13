@@ -1,0 +1,20 @@
+.type-label {
+  color: #ffead0;
+  font-weight: 600;
+  max-width: fit-content;
+  padding: 0.75em 1em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sunrise-orange {
+  background-color: #e17654;
+}
+
+.deep-sea-green {
+  background-color: #115e59;
+}
+
+.rangoon-green {
+  background-color: #161616;
+}

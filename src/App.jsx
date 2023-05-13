@@ -6,6 +6,8 @@ import VansPage from './pages/Vans'
 
 import './App.css'
 
+import './server'
+
 const router = createBrowserRouter([
   {
     path: '/',

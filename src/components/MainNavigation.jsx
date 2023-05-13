@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import classes from './MainNavigation.module.css'
 
 function MainNavigation() {
+  const activeLink = ({ isActive }) => (isActive ? classes.active : undefined)
+
   return (
     <>
       <nav>
@@ -11,10 +13,14 @@ function MainNavigation() {
             <Link to="/">Home</Link>
           </li> */}
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" className={activeLink}>
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/vans">Vans</NavLink>
+            <NavLink to="/vans" className={activeLink}>
+              Vans
+            </NavLink>
           </li>
         </ul>
       </nav>
