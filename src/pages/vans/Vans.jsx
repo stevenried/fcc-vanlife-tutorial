@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import VansDisplay from '../components/vans/VansDisplay'
-import Wrapper from '../components/Layout/Wrapper'
+import VansDisplay from '../../components/vans/VansDisplay'
+import Wrapper from '../../components/Layout/Wrapper'
 
 function VansPage() {
   const [vans, setVans] = useState([])

@@ -1,4 +1,5 @@
 import classes from './TypeLabel.module.css'
+import { capitalize } from '../../utils'
 
 const bgColor = (type) => {
   switch (type) {
@@ -13,15 +14,10 @@ const bgColor = (type) => {
   }
 }
 
-const capitalize = (string) => {
-  const firstChar = string.charAt(0)
-  const remainingString = string.slice(1)
-
-  return firstChar.toUpperCase(firstChar) + remainingString
-}
-
-function TypeLabel({ type }) {
-  const classNames = `${classes['type-label']} ${classes[bgColor(type)]}`
+function TypeLabel({ type, className }) {
+  const classNames = `${classes['type-label']} ${
+    classes[bgColor(type)]
+  } ${className}`
 
   return <div className={classNames}>{capitalize(type)}</div>
 }

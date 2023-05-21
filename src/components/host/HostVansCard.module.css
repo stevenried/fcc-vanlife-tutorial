@@ -1,0 +1,44 @@
+.van-card {
+  background: #fff;
+  padding: 18px 24px;
+  box-shadow: -2px 12px 61px -46px rgb(201, 200, 201);
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: initial;
+}
+
+.van-card .img-parent {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+}
+
+.van-card img {
+  max-width: 100%;
+}
+
+.van-card h2 {
+  margin: 0;
+}
+
+.van-card p {
+  margin-top: 0.6rem;
+}
+
+.van-card h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.van-card p {
+  color: #4d4d4d;
+  font-weight: 400;
+}

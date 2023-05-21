@@ -9,7 +9,13 @@
 }
 
 body {
-  background: #fff7ed;
   margin: 0;
+  background: #fff7ed;
   color: #161616;
+}
+
+#root {
+}
+
+main {
 }

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import MainNavigation from './MainNavigation'
+import MainNavigation from '../MainNavigation'
 import classes from './MainHeader.module.css'
 
 const MainHeader = () => {

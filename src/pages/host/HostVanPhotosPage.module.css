@@ -1,0 +1,13 @@
+.photos-container {
+  margin-top: 1.4rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.img-parent {
+  width: 125px;
+  aspect-ratio: 1 / 1;
+}

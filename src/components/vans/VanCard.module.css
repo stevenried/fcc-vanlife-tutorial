@@ -8,6 +8,11 @@
   border-radius: 5px;
 }
 
+.van-card a {
+  text-decoration: none;
+  color: initial;
+}
+
 .description {
   position: relative;
 }

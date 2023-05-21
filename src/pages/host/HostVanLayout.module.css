@@ -1,0 +1,15 @@
+.layout {
+  background: #fff;
+  padding: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+.return {
+  color: #161616;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+.return:hover {
+  text-decoration: underline;
+}

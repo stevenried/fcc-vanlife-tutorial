@@ -1,0 +1,28 @@
+.van-detail-container {
+  font-weight: 700;
+  margin: 2.25rem 0;
+}
+
+.van-detail-container img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.van-detail-container a {
+  background: #ff8c38;
+  color: #fff;
+  width: 100%;
+}
+
+.van-detail-container h2 {
+  font-size: 2rem;
+}
+
+.van-detail-container span {
+  font-size: 1.5rem;
+}
+
+.van-detail-container p {
+  font-weight: 500;
+}

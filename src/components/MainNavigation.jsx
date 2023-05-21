@@ -9,16 +9,18 @@ function MainNavigation() {
     <>
       <nav>
         <ul className={classes['nav-links']}>
-          {/* <li>
-            <Link to="/">Home</Link>
-          </li> */}
           <li>
-            <NavLink to="/about" className={activeLink}>
+            <NavLink to="host" className={activeLink}>
+              Host
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="about" className={activeLink}>
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="/vans" className={activeLink}>
+            <NavLink to="vans" className={activeLink}>
               Vans
             </NavLink>
           </li>
