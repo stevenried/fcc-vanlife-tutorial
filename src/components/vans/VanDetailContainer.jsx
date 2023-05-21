@@ -1,6 +1,6 @@
 import LinkButton from '../UI/LinkButton'
 import TypeLabel from './TypeLabel'
-import classes from './vanDetailContainer.module.css'
+import classes from './VanDetailContainer.module.css'
 
 function VanDetailContainer({ van }) {
   return (

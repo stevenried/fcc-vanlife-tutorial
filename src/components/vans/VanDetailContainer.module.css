@@ -26,3 +26,7 @@
 .van-detail-container p {
   font-weight: 500;
 }
+
+.class {
+  color: red;
+}
